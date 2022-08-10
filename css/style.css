@@ -1,0 +1,310 @@
+
+body{
+    font-family: "montserrat";
+  
+}
+p{
+    color: #8f8f8f;
+}
+
+/* title */
+#title{
+    background-color: #4bcffa;
+    color:white;
+    line-height: 2rem;
+
+}
+.navbar.bgcolors{
+    background-color: #6a767a;
+}
+.navbar-brand.change{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+.brand{
+    border-radius: 100%;
+}
+.nav-link{
+    font-size: 1rem;
+    
+}
+.nav-item{
+    padding:0 18px;
+}
+.container-fluid.padding {
+    padding: 5% 15% 13%;
+
+}
+.intro{
+    padding-top: 10%;
+}
+.title-heading{
+    font-family: "Montserrat Thin";
+}
+.title-head{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.intro_about{
+    color: #8f8f8f;
+    
+}
+.img-intro{
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    
+   
+}
+.extra{
+    position: absolute;
+    bottom: 2%;
+    left: 15%;
+    height: 35%;
+    width: 35%;
+    transform: rotate(-15deg);
+
+}
+.stud{
+    position: absolute;
+    bottom: 2%;
+    left: 70%;
+    height: 60%;
+    width: 40%;
+    transform: rotate(-15deg);
+
+}
+ @media (max-width:992px) {
+    #title{
+        text-align: center;
+    }
+    .img-intro{
+        position:static;
+    }
+    .extra{
+        height: 35%;
+        width: 25%;
+    }
+    .stud{
+        height: 50%;
+        width: 20%;
+    }
+    .container-fluid.padding {
+        padding: 3% 8% 3%;
+    }
+    em.vision-heading{
+        font-size: 1rem;
+    }
+    img.vision-img{
+        width: 60%;
+    }
+    .card.mycard{
+        text-align: center;
+    }
+    select.search-school{
+        font-size: 0.7rem;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+      
+    }
+    input.search-buttton{
+
+        font-size: 10px;
+        padding: 5px;
+        width: 20%;
+
+    }
+} 
+@media screen and (max-width: 600px) {
+    .card.united{
+        display: none !important;
+    }
+}
+
+/* features */
+#features{
+    padding:10% 15%;
+    background-color: white;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 7%;
+    
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+/* download  */
+#download{
+    background-color:#edeef7;
+    color:#a6a9b6;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.download-heading{
+        font-family: "montserrat-Bold";
+        font-size: 3.0rem;
+        line-height: 1.5;
+        font-weight: bolder;
+        
+}
+
+/* footer  */
+
+#footer{
+    padding: 7% 15% 3%;
+    text-align: center;
+    background-color: #373b3d;
+}
+.icon-footer{
+    margin: 20px 15px;
+    color:#fafdff;
+}
+
+/* vision  */
+
+.carousel-inner{
+    text-align: center;
+}
+.carousel-item{
+    padding:0% 15% 15% 0% ;
+}
+.vision-img{
+    width: 50%;
+}
+.vision-heading{
+    font-size: 1.5rem;
+    color: #5c5757;
+}
+span.carousel-control-next-icon { 
+    background-image: url(https://cdn.icon-icons.com/icons2/2456/PNG/512/forward_icon_149022.png);
+}
+span.carousel-control-prev-icon {
+    background-image:url(https://cdn.icon-icons.com/icons2/2456/PNG/512/backwards_icon_149034.png)
+} 
+
+/* back to top buttton  */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    top: 10px; 
+    right: 40%; 
+
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+
+    background: #090a0a;
+    background-image: -webkit-linear-gradient(top, #090a0a, #8f9da6);
+    background-image: -moz-linear-gradient(top, #090a0a, #8f9da6);
+    background-image: -ms-linear-gradient(top, #090a0a, #8f9da6);
+    background-image: -o-linear-gradient(top, #090a0a, #8f9da6);
+    background-image: linear-gradient(to bottom, #090a0a, #8f9da6);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family:"ubuntu";
+    color: #fafdff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  #myBtn:hover {
+    background: #bdc5c9;
+    background-image: -webkit-linear-gradient(top, #bdc5c9, #080808);
+    background-image: -moz-linear-gradient(top, #bdc5c9, #080808);
+    background-image: -ms-linear-gradient(top, #bdc5c9, #080808);
+    background-image: -o-linear-gradient(top, #bdc5c9, #080808);
+    background-image: linear-gradient(to bottom, #bdc5c9, #080808);
+    text-decoration: none;
+  }
+
+  /* my card  */
+  .card.mycard {
+    padding: 5%;
+    margin: 5%;
+    line-height: "2rem";
+
+  } 
+  .card-title{
+      padding: 3% 0%;
+      color: #5c5757;
+  }
+
+  /* searchschool  */
+  #search{
+    background-color:#6a767a;
+    color:#a6a9b6;
+    text-align: center;
+    padding: 7% 10%;
+    font-size: 1.2rem;
+    font-family: "ubuntu";
+  }
+  .search-buttton {
+    background: #36dff5;
+    background-image: -webkit-linear-gradient(top, #36dff5, #005969);
+    background-image: -moz-linear-gradient(top, #36dff5, #005969);
+    background-image: -ms-linear-gradient(top, #36dff5, #005969);
+    background-image: -o-linear-gradient(top, #36dff5, #005969);
+    background-image: linear-gradient(to bottom, #36dff5, #005969);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px #6b606b;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 19px;
+    text-decoration: none;
+  
+  }
+  
+  .search-buttton:hover {
+    background: #005969;
+    background-image: -webkit-linear-gradient(top, #005969, #36dff5);
+    background-image: -moz-linear-gradient(top, #005969, #36dff5);
+    background-image: -ms-linear-gradient(top, #005969, #36dff5);
+    background-image: -o-linear-gradient(top, #005969, #36dff5);
+    background-image: linear-gradient(to bottom, #005969, #36dff5);
+    text-decoration: none;
+  }
+  .search-school{
+      font-size: 1rem;
+      color: #6a767a;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+      width: 50%;
+      background-color: #d8e3e7;
+  }
+/* card  */
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+  .card-columns{
+      padding: 5%;
+  }
+ .card-title.join{
+    padding: 50% 30%;
+    font-family: 'Ubuntu';
+    color: #8f9da6;
+    text-align: center;
+ } 
+
